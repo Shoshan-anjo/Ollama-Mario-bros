@@ -1,7 +1,7 @@
 import ollama
 x = input("Escribe algo: ")
 respuesta = ollama.chat(
-    model="mario-mind",
+    model="mario-bros",
     messages=[{"role": "user", "content": x}]
 )
 
